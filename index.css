@@ -1,0 +1,23 @@
+@font-face {
+    font-family: perfect-dark;
+    src: url(./pdark.ttf);
+}
+
+body{
+    text-align: center;
+    padding-top: 15%;
+    background:url(./back.gif);
+    background-size:contain;
+}
+
+h1{
+    font-family: perfect-dark;
+    letter-spacing: 7px;
+    color: #19007c;
+    font-size: 35px;
+}
+
+a{
+    text-decoration: underline;
+    color: #19007c;
+}
