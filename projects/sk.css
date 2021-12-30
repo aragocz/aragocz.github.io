@@ -9,3 +9,28 @@ body header{
 body{
     background: #3a3a3a;
 }
+
+body .DashboardBox{
+    background: #6a6a6a;
+}
+
+body .DashboardBox .content .smallTable tr:nth-child(2n+1){
+    background-color:#7e7e7e;
+}
+
+.DctTable .RowOdd{
+    background-color: #888888;
+}
+
+.DctTable .RowEven{
+    background-color: #a5a5a5;
+}
+
+.DctTable tr:first-child th{
+    border: 4px solid transparent;
+}
+
+.DctTable tr th:first-child{
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
